@@ -3,9 +3,9 @@ Zadanie 2
 
 Główna funkcja programu potrzebuje jednego punktu należącego do otoczki aby znaleźć pozostałe.
 
-	Za punkt startowy program obiera punkt o największej współrzędnej y - "najwyższy". Nie ma sytuacji w której ten punkt nie 	należałby do otoczki. 
+	Za punkt startowy program obiera punkt o największej współrzędnej y - "najwyższy". Nie ma sytuacji w której ten punkt nie należałby do otoczki. 
 
-	Następnie program wybiera kolejne punkty tworzące najbardziej "lewoskrętny" zwrot". W tym celu każdy potencjalny kandydat 	porównywany jest z każdym punktem za pomocą iloczynu wektorowego:
+	Następnie program wybiera kolejne punkty tworzące najbardziej "lewoskrętny" zwrot". W tym celu każdy potencjalny kandydat porównywany jest z każdym punktem za pomocą iloczynu wektorowego:
 		- Dodatni iloczyn wskazuje na lewoskrętny zwrot
 		- Ujemny iloczyn wskazuje na prawoskrętny zwrot
 		- Iloczyn równy zero wskazuje na kolinearność
